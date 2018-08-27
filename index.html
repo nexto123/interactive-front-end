@@ -1,313 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Assignment1</title>
-      
-   <!---------------------------- Hover-effects---------------- -->
-      
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
-      
-    <!------------------- Bootstrap-fonts -------------------------->
-      
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-                 
-                <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-            
-            
-                  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-                  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-              
-                <!--------------------------[endif]---------------->
-  </head>
-   
-   <body>
-       
-  <!...............Nav-bar & Logo............................................>
-              <div class="container">
-              <nav class="navbar navbar-default navbar-static-top">
-               <div class="container-fluid">
-                <div class="navbar-header">
-                  <a class="navbar-brand" href="#"><img class="logo hvr-grow" alt="Brand" src="assets/images/Z1small.jpg"></a>
-                   </div>
-                   <ul class="nav navbar-nav">
-                    <li ><a href="#" class="hvr-shadow">Home</a></li>
-                   <li><a href="#" class="hvr-shadow">About us</a></li>
-                  <li><a href="#" class="hvr-shadow">Galery</a></li>
-                
-                </ul>
-               </div>
-              </nav>
-             </div>     
-  <!------------------------Nav-bar & Logo End-------------------------->     
-  
-          <div class="container">
-               
-              <div  class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 ">
-                      
-               <h1 class="text-danger ui-menu-color-ghana text-center ghost uppercase clearfix image-responsive" id="jumbotron" arial-hidden="true">
-               <span class="text-heading">Z1 Online Radio Block<br><small class="lead">Dublin#2018</small></span><br><i class="glyphicon glyphicon-minus"></i>
-               <p><a class="btn btn-lg btn-success" href="#" role="button" >Book Now!</a></p></h1>
-                      <hr>
-                  </div>
-          </div>
-          </div>
-          
-  <!---------------------- Galery ------------------->
-          
-          <galery>
-              <div class="container">
-               <div class="row">
-                  <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                      <img  class="image-responsive hvr-grow" src="assets/images/rte-radio5.jpg" alt="...">
-                       <div class="caption">
-                        <h3> RTÉ Radio 1</h3>
-                        <p><span class="live">Live</span> Now!</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Button</a><button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalA"><i class="far fa-play-circle"></i>listen</button></p>
-                        
-                    <!--------------------modal-------------starts--------------->
-                           
-                          <div class="modal fade" id="myModalA" role="dialog">
-                            <div class="modal-dialog">
-                            
-                              <!-- Modal content-->
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                  <h4 class="modal-title">Modal Header First</h4>
-                                </div>
-                                <div class="modal-body">
-                                    
-                        <!---------------------radio-streaming --link---->
-                                    
-                                  <p><audio src="http://av.rasset.ie/av/live/radio/radio1.m3u" autoplay="false" controls="true" volume="1.0"></audio><span class="">Country:	Ireland</span></p>
-                                  
-                                  <!--------radio-end------------------->
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                    <!----------------modal------ends------------------>
-                        
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail ">
-                      <img class="image-responsive hvr-grow" src="assets/images/today-fm2.jpg" alt="...">
-                       <div class="caption">
-                        <h3>Spin South-West</h3>
-                        <p><span class="live">Live</span> Now!</p>
-                        <p><a href="#" class="btn btn-primary " role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalB"><i class="far fa-play-circle"></i>listen</button></p>
-                           
-                  <!----------------modal-------------starts--------------->
-                           
-                          <div class="modal fade" id="myModalB" role="dialog">
-                            <div class="modal-dialog">
-                            
-                            <!-------------- Modal content---------->
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                  <h4 class="modal-title">Modal Header second</h4>
-                                </div>
-                                <div class="modal-body">
-                          <!------radio-streaming --link---->
-                                    
-                                  <p><audio src="http://15843.live.streamtheworld.com/TODAY_FM.mp3?csegid=101" autoplay="false" controls="true" volume="1.0"></audio></p>
-                                  
-                        <!--------radio-end------------------->
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                    <!----------------modal------ends------------------>
-                    
-                      </div>
-                    </div>
-                  </div>
-                  
-                   <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                      <img  class="image-responsive hvr-grow" src="assets/images/z1-icon.jpg" alt="...">
-                       <div class="caption">
-                        <h3>Z One Radio</h3>
-                        <p><span class="live">Live</span> Now!</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalC"><i class="far fa-play-circle"></i>listen</button></p>
-            
-                      <!-------------------modal-------starts------>
-                        
-                        <div class="modal fade" id="myModalC" role="dialog">
-                            <div class="modal-dialog">
-                            
-                              <!-- Modal content-->
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                  <h4 class="modal-title">Modal Header Third</h4>
-                                </div>
-                                <div class="modal-body">
-                                    
-                          <!------radio-streaming --link---->
-                                    
-                                  <p><audio src="http://www.partyviberadio.com:8000/;listen.pls?sid=1" autoplay="false" controls="true" volume="1.0"></audio></p>
-                                  
-                         <!--------radio-end------------------->
-                                  
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                              </div>
-                              
-                            </div>
-                          </div>
-                    
 
-            <!---------------modal end-------------------->
-                      </div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Assignment1</title>
+
+  <!---------------------------- Hover-effects---------------- -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
+
+  <!------------------- Bootstrap-fonts -------------------------->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--------------------------[end]---------------->
+</head>
+
+<body>
+  <!-----------------------Nav-bar & Logo-------------------------------->
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand" href="index.html"><img class="logo hvr-grow" alt="Brand" src="assets/images/Z1small.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="hvr-shadow">Home</a></li>
+            <li><a href="about_us.html" class="hvr-shadow">About us</a></li>
+            <li><a href="contact_us.html" class="hvr-shadow">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+  <!------------------------Nav-bar & Logo End-------------------------->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+
+        <h1 class="text-danger ui-menu-color-ghana text-center ghost uppercase clearfix image-responsive" id="jumbotron" arial-hidden="true">
+          <span class="text-heading">Z1 Online Radio Block<br><small class="lead">Dublin#2018</small></span><br><i class="glyphicon glyphicon-minus"></i>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Book Now!</a></p>
+        </h1>
+        <hr>
+      </div>
+    </div>
+  </div>
+  <!---------------------- Galery ------------------->
+  <gallery>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img class="image-responsive hvr-grow" src="assets/images/rte-radio5.jpg" alt="rte-thumbnail-image">
+            <div class="caption">
+              <h3> RTÉ Radio 1</h3>
+              <p><span class="live">Live</span> Now!</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a><button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalA"><i class="far fa-play-circle"></i>listen</button></p>
+              <!--------------------modal-------------starts--------------->
+              <div class="modal fade" id="myModalA" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Modal Header First</h4>
+                    </div>
+                    <div class="modal-body">
+                      <!---------------------radio-streaming --link---->
+                      <p><audio src="http://av.rasset.ie/av/live/radio/radio1.m3u" autoplay="false" controls="true" volume="1.0"></audio><span class="">Country:	Ireland</span></p>
+                      <!--------radio-end------------------->
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                   </div>
-                  
-                  
                 </div>
               </div>
-              
-          </galery>
-          
-          
-          <hr>
-          
-          
-          <section>
-           <div class="container">
-            <div>
-                <div class="row">
+              <!----------------modal------ends------------------>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail ">
+            <img class="image-responsive hvr-grow" src="assets/images/today-fm2.jpg" alt="...">
+            <div class="caption">
+              <h3>Spin South-West</h3>
+              <p><span class="live">Live</span> Now!</p>
+              <p><a href="#" class="btn btn-primary " role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalB"><i class="far fa-play-circle"></i>listen</button></p>
+              <!----------------modal-------------starts--------------->
+              <div class="modal fade" id="myModalB" role="dialog">
+                <div class="modal-dialog">
+                  <!-------------- Modal content---------->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Modal Header second</h4>
                     </div>
-                <div class="col-md-4">
-                    <h2 class="heading text-center">Upcoming Shows <span class="label label-success">New</span></h2> 
-                  <p  class="lead jumbotron">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et 
-                      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                      Donec pede justo, fringilla vel
-                      <br>
-                      <button class="btn btn-primary">read more</button>
-                      
-                  </p>
-                 </div>
-                    <div class="col-md-4">
-                        <h2 class="heading text-center"><i class="glyphicon glyphicon-heart " arial-hidden="true"></i><span> Artist</span></h2> 
-                  <p class="lead jumbotron">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                      Donec pede justo, fringilla vel
-                      <br>
-                      <button class="btn btn-primary">read more</button>
-                  </p>
-                 </div>
-                    <div class="col-md-4">
-                        <h2 class="heading text-center"><i class="glyphicon glyphicon-credit-card"></i> Reserve Tickets</h2> 
-                  <p class="lead jumbotron">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et 
-                      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                      Donec pede justo, fringilla vel
-                      <br>
-                      <button class="btn btn-primary">read more</button>
-                      <br>
-                  </p>
-                 </div>
-                </div>
-                
-                    
-          <div class="container">
-              <div  class="row">
-                  <div class="col-md-12 text-center">
-                      <h2 class="feature">History</h2>
-                  </div>
-                  <div class="col-md-12">
-                  <p class="lead">
-                      
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-                      et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-                      Donec pede justo, fringilla vel
-                  </p>
-                      <hr>
-                  </div>
-                  
-                </div>
-                
-            </div>  
-            <subscribe>
-              
-              <div class="jumbotron text-center">
-                  <h4>Z1 Online Radio Bunk</h4> 
-                  <p>Join our radio by suscribing for email updates.</p> 
-                  <form class="form-inline">
-                    <div class="input-group">
-                      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-                      <div class="input-group-btn">
-                        <button type="button" class="btn btn-danger">Subscribe</button>
-                      </div>
+                    <div class="modal-body">
+                      <!------radio-streaming --link---->
+                      <p><audio src="http://15843.live.streamtheworld.com/TODAY_FM.mp3?csegid=101" autoplay="false" controls="true" volume="1.0"></audio></p>
+                      <!--------radio-end------------------->
                     </div>
-                  </form>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
                 </div>
-              
-              
-            </subscribe>
-            
-            
-              
- 
-              <footer class="container-fluid">
-                <div id="footer-details" class="row">
-                  <div class="col-sm-4">
-                    <h5 class="Uppercase general-sub "><i></i>Address:</h5> 
-                    <p class="inline-block">
-                      59 Ard Caoin, Gort Rd. Ennis.Clare<br>
-                        Ireland<br>
-                        <br>
-                      <p>© 2017-2018 All Rights Reserved</p>
+              </div>
+              <!----------------modal------ends------------------>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img class="image-responsive hvr-grow" src="assets/images/z1-icon.jpg" alt="...">
+            <div class="caption">
+              <h3>Z One Radio</h3>
+              <p><span class="live">Live</span> Now!</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalC"><i class="far fa-play-circle"></i>listen</button></p>
+              <!-------------------modal-------starts------>
+              <div class="modal fade" id="myModalC" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Modal Header Third</h4>
+                    </div>
+                    <div class="modal-body">
+                      <!------radio-streaming --link---->
+                      <p><audio src="http://www.partyviberadio.com:8000/;listen.pls?sid=1" autoplay="false" controls="true" volume="1.0"></audio></p>
+                      <!--------radio-end------------------->
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
-                   <div class="col-sm-4">
-                    <h5 class="uppercase general-sub"></h5> 
-                   
-                  </div>
-                   <div class="col-sm-4 list-inline social-li">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                  </div>
-                 </div>
-               </div>
-            </footer>
-  </body>
+                </div>
+              </div>
+              <!---------------modal end-------------------->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </gallery>
+  <hr>
+  <section>
+    <div class="container">
+      <div>
+        <div class="row">
+        </div>
+        <div class="col-md-4">
+          <h2 class="heading text-center">Upcoming Shows <span class="label label-success">New</span></h2>
+          <p class="lead jumbotron">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            <br>
+            <button class="btn btn-primary">read more</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="heading text-center"><i class="glyphicon glyphicon-heart " arial-hidden="true"></i><span> Artist</span></h2>
+          <p class="lead jumbotron">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            <br>
+            <button class="btn btn-primary">read more</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="heading text-center"><i class="glyphicon glyphicon-credit-card"></i> Reserve Tickets</h2>
+          <p class="lead jumbotron">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            <br>
+            <button class="btn btn-primary">read more</button>
+            <br>
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="feature">History</h2>
+          </div>
+          <div class="col-md-12">
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <subscribe>
+        <div class="jumbotron text-center">
+          <h4>Z1 Online Radio Bunk</h4>
+          <p>Join our radio by suscribing for email updates.</p>
+          <form class="form-inline">
+            <div class="input-group">
+              <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-danger">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </subscribe>
+      <footer class="container-fluid">
+        <div id="footer-details" class="row">
+          <div class="col-sm-4">
+            <h5 class="Uppercase general-sub "><i></i>Address:</h5>
+            <p class="inline-block">
+              59 Ard Caoin, Gort Rd. Ennis.Clare<br> Ireland
+              <br>
+              <br>
+              <p>© 2017-2018 All Rights Reserved</p>
+          </div>
+          <div class="col-sm-4">
+            <h5 class="uppercase general-sub"></h5>
+          </div>
+          <div class="col-sm-4 list-inline social-li">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+    </div>
+    </footer>
+</body>
+
 </html>

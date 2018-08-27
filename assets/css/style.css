@@ -2,7 +2,8 @@
 
 
 h1,h2,h3{
-    font-weight: 400;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
 p{
