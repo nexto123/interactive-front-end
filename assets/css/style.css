@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body{
+    height: auto; 
+    min-height: 100%;
+}
+
+
+html {
+    position: relative;
+    height: 100%;
+}
 
 h1,h2,h3{
     font-weight: 600;
@@ -26,7 +36,6 @@ p{
 }
 
 #jumbotron{
-   
     height: auto;
     background-image:linear-gradient(45deg, rgba(128, 0, 255, 0.22), blue), url('assets/images/z1web.jpg');
     background-position:200% 100%; 
@@ -135,10 +144,12 @@ input[type=submit]:hover {
 /*----------------contact Forms------------------------------------*/
 
 footer{
-    background-color: rgba(173, 173, 173, 0.15);
+    position: relative;
+    background-color: #fbfbfb; 
     color: slategrey;
     min-height: 120px;
     margin-top: 10px;
+    clear: both;
 }
 
 footer i{
@@ -159,10 +170,8 @@ footer i{
     margin: 20px;
 }
 footer{
-    background-color: #fbfbfb;
+    
 }
-    /*--width: 304px;
-        height: 160px;*/
 
 img.img-thumbnail{
     width: 400px;
@@ -172,6 +181,7 @@ img.img-thumbnail{
     margin-top: 20px;
     margin-bottom: 40px;
     box-shadow: 5px 5px 5px rgba(181, 181, 181, 0.52);
+    border-radius: 0px;
 }
 .logo{
     height: 50px;
@@ -247,9 +257,37 @@ span.live{
     color: red;
 }
 
+h2.text-center.partner{
+    font-size: 300%;
+    font-weight: 300;
+    color: #b9b9b9;
+    margin-bottom: 80px;
+}
+.container.slider{
+    margin-bottom: 60px;
+}
+
+.container .grid{
+    margin: auto 0;
+}
+
+div .gallery-video{
+    position: relative;
+    margin-top: 40px;
+     margin-bottom:80px;
+}
+.about-us{
+    text-decoration: underline;
+}
+.container .show-image{
+    overflow: hidden;
+}
+.container .show-image img{
+    height: 100%;
+    width: auto;
+}
 
 
-/*-----------------------------------------------Media Queries*/
 
 
 

@@ -7,13 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Assignment1</title>
-
   <!---------------------------- Hover-effects---------------- -->
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
-
   <!------------------- Bootstrap-fonts -------------------------->
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +21,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--------------------------[end]---------------->
 </head>
-
 <body>
   <!-----------------------Nav-bar & Logo-------------------------------->
   <div class="container">
@@ -46,6 +41,7 @@
             <li><a href="index.html" class="hvr-shadow">Home</a></li>
             <li><a href="about_us.html" class="hvr-shadow">About us</a></li>
             <li><a href="contact_us.html" class="hvr-shadow">Contact Us</a></li>
+            <li><a href="gallery.html" class="hvr-shadow">Gallery</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -55,29 +51,102 @@
   </div>
   <!------------------------Nav-bar & Logo End-------------------------->
   <div class="container">
-
     <div class="row">
       <div class="col-xs-12">
 
         <h1 class="text-danger ui-menu-color-ghana text-center ghost uppercase clearfix image-responsive" id="jumbotron" arial-hidden="true">
           <span class="text-heading">Z1 Online Radio Block<br><small class="lead">Dublin#2018</small></span><br><i class="glyphicon glyphicon-minus"></i>
-          <p><a class="btn btn-lg btn-success" href="#" role="button">Book Now!</a></p>
+          <p><a class="btn btn-lg btn-success" href="gallery.html" role="button">Find Out More!</a></p>
         </h1>
         <hr>
       </div>
     </div>
   </div>
-  <!---------------------- Galery ------------------->
+  <!---------------------- Logo Carousel ------------------->
+  <h2 class="text-center partner">Partners</h2> 
+  <div class="container slider">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+      <div class="row">
+      <p>
+      <div class="col-md-4">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/BBC_Radio_1Xtra_logo.svg/1024px-BBC_Radio_1Xtra_logo.svg.png" alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_BBC_Radio_1.svg/2000px-Logo_BBC_Radio_1.svg.png" alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="https://www.ndcn.ox.ac.uk/images/NLO/nlo-images/bbc-radio-4-2" alt="Los Angeles" style="width:100%;">
+        </div>
+        </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+      <p>
+      <div class="col-md-4">
+        <img src="https://vignette.wikia.nocookie.net/officialfictionalradiostations/images/b/b9/WEPN_1050am_ESPN_logo.svg.png/revision/latest?cb=20170721005444" 
+        alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="https://vignette.wikia.nocookie.net/radiopedia/images/d/d2/Record_Radio_Logo.svg/revision/latest?cb=20170416174153&path-prefix=ru" 
+        alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="http://thenadb.org/wp-content/uploads/2017/11/TuneIn_Logo_2000px.png" alt="Los Angeles" style="width:100%;">
+        </div>
+        </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+      <p>
+      <div class="col-md-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/AbsoluteLogo.svg/1200px-AbsoluteLogo.svg.png" 
+        alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="https://cdn.worldvectorlogo.com/logos/apple-music.svg" alt="Los Angeles" style="width:100%;">
+        </div>
+         <div class="col-md-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/ESPN_Deportes_Radio_logo.svg/1200px-ESPN_Deportes_Radio_logo.svg.png" 
+        alt="Los Angeles" style="width:100%;">
+        </div>
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!---------------------- Galery ------------------->  
   <gallery>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
+      <div class="row ">
+        <div class="col-sm-6 col-md-4 ">
           <div class="thumbnail">
-            <img class="image-responsive hvr-grow" src="assets/images/rte-radio5.jpg" alt="rte-thumbnail-image">
+            <img class="image-responsive" src="assets/images/rte-radio5.jpg" alt="rte-thumbnail-image">
             <div class="caption">
               <h3> RTÉ Radio 1</h3>
               <p><span class="live">Live</span> Now!</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a><button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalA"><i class="far fa-play-circle"></i>listen</button></p>
+              <p><a href="#" class="btn btn-primary" role="button">follow</a><button class="btn btn-default pull-right" 
+              role="button" data-toggle="modal" data-target="#myModalA"><i class="far fa-play-circle"></i>listen</button></p>
               <!--------------------modal-------------starts--------------->
               <div class="modal fade" id="myModalA" role="dialog">
                 <div class="modal-dialog">
@@ -89,7 +158,9 @@
                     </div>
                     <div class="modal-body">
                       <!---------------------radio-streaming --link---->
-                      <p><audio src="http://av.rasset.ie/av/live/radio/radio1.m3u" autoplay="false" controls="true" volume="1.0"></audio><span class="">Country:	Ireland</span></p>
+                      <p><audio src="http://av.rasset.ie/av/live/radio/radio1.m3u" autoplay="false" controls="true" volume="1.0">
+                        
+                      </audio><span class="">Country:	Ireland</span></p>
                       <!--------radio-end------------------->
                     </div>
                     <div class="modal-footer">
@@ -103,12 +174,13 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="thumbnail ">
-            <img class="image-responsive hvr-grow" src="assets/images/today-fm2.jpg" alt="...">
+          <div class="thumbnail">
+            <img class="image-responsive" src="assets/images/today-fm2.jpg" alt="...">
             <div class="caption">
-              <h3>Spin South-West</h3>
+              <h3>Today Fm</h3>
               <p><span class="live">Live</span> Now!</p>
-              <p><a href="#" class="btn btn-primary " role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalB"><i class="far fa-play-circle"></i>listen</button></p>
+              <p><a href="#" class="btn btn-primary " role="button">follow</a> <button class="btn btn-default pull-right" 
+              role="button" data-toggle="modal" data-target="#myModalB"><i class="far fa-play-circle"></i>listen</button></p>
               <!----------------modal-------------starts--------------->
               <div class="modal fade" id="myModalB" role="dialog">
                 <div class="modal-dialog">
@@ -135,11 +207,12 @@
         </div>
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img class="image-responsive hvr-grow" src="assets/images/z1-icon.jpg" alt="...">
+            <img class="image-responsive" src="assets/images/z1-icon.jpg" alt="...">
             <div class="caption">
               <h3>Z One Radio</h3>
               <p><span class="live">Live</span> Now!</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> <button class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#myModalC"><i class="far fa-play-circle"></i>listen</button></p>
+              <p><a href="#" class="btn btn-primary" role="button">follow</a> <button class="btn btn-default pull-right" 
+              role="button" data-toggle="modal" data-target="#myModalC"><i class="far fa-play-circle"></i>listen</button></p>
               <!-------------------modal-------starts------>
               <div class="modal fade" id="myModalC" role="dialog">
                 <div class="modal-dialog">
@@ -167,7 +240,7 @@
       </div>
     </div>
   </gallery>
-  <hr>
+<!-------------------------Section-------------------->
   <section>
     <div class="container">
       <div>
@@ -176,28 +249,37 @@
         <div class="col-md-4">
           <h2 class="heading text-center">Upcoming Shows <span class="label label-success">New</span></h2>
           <p class="lead jumbotron">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            When you find a concert your interested in going to, Z1 will gather tickets
+            from different ticket sellers all over the world and find you great deals on all tickets.
+            It doesn't matter if the concert is already sold out, or if you want front row or VIP tickets right before the show. 
+            We can help you get those tickets you want. We use interactive seating charts of the.. 
             <br>
-            <button class="btn btn-primary">read more</button>
+            <a href="gallery.html"><button class="btn btn-primary">read more</button></a>
           </p>
         </div>
         <div class="col-md-4">
-          <h2 class="heading text-center"><i class="glyphicon glyphicon-heart " arial-hidden="true"></i><span> Artist</span></h2>
+          <h2 class="heading text-center"><i class="glyphicon glyphicon-heart " arial-hidden="true"></i><span> Artiste</span></h2>
           <p class="lead jumbotron">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+           <strong>George Michael</strong> (born Georgios Kyriacos Panayiotou,
+           25 June 1963 – 25 December 2016) was an English singer, songwriter,
+           record producer, and philanthropist who rose to fame as a member 
+           of the music duo Wham! and later embarked on a solo career.
+           He was widely known for his work in the 1980s and 1990s, including hit Wham! 
             <br>
-            <button class="btn btn-primary">read more</button>
+            <a href="gallery.html"><button class="btn btn-primary">read more</button></a>
           </p>
         </div>
         <div class="col-md-4">
           <h2 class="heading text-center"><i class="glyphicon glyphicon-credit-card"></i> Reserve Tickets</h2>
           <p class="lead jumbotron">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-            sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+            A guaranteed reservation means you've paid for your reservation in advance,
+            and the hotel must hold the room for you.
+            A confirmed reservation means that you have not yet paid, but the hotel 
+            agrees to hold a room for you based on some condition.
+            We accept <strong>Paypal payment</strong> and credit card. An extra fee maybe charged. Thanks!!
+            ..
             <br>
-            <button class="btn btn-primary">read more</button>
+            <a href="gallery.html"><button class="btn btn-primary">read more</button></a>
             <br>
           </p>
         </div>
@@ -205,12 +287,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 class="feature">History</h2>
+            <h2 class="feature">About Us</h2>
           </div>
           <div class="col-md-12">
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel
+              We are a media company established in 2018 and located in Clare, Ireland. 
+              Radio is our passion, so we live and we eat radio. 
+              Internet radio has become one of the most sought after medium of 
+              communication as it is very easy to setup and less expensive when compared 
+              to other mediums. Almost all media device are optimized for internet access, 
+              and therefore can serve as a medium to revieve online radio. 
+              With high speed broadband comes quality content as far as internet radio is concerned.
             </p>
             <hr>
           </div>
@@ -251,7 +338,6 @@
           </div>
         </div>
     </div>
-    </footer>
+  </footer>
 </body>
-
 </html>
